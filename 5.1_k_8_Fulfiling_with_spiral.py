@@ -8,8 +8,9 @@ while c != n*m:
         j += 1
         c += 1
         l[i][j] = c
-    while i < n - 1 and l[i+1][j] == 0:   # move down
-       i += 1
+        # added rows
+    while i < n - 1 and l[i+1][j] == 0:   # move down agin
+
        c += 1
        l[i][j] = c
     while j > 0 and l[i][j-1] == 0 :   # двигаюсь вправо

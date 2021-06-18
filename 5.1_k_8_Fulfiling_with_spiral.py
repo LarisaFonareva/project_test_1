@@ -17,7 +17,7 @@ while c != n*m:
        j -= 1
        c += 1
        l [i][j] = c
-    while i > 0 and l[i - 1][j] == 0:   # двигаюсь вверх
+    while i > 0 and l[i - 1][j] == 0:   # move up
        i -= 1
        c += 1
        l[i][j] = c
